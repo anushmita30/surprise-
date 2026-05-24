@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>turning old just got a lot better!</title>
+  
+  <style>
+    body {
+      background-color: #1a1510; 
+      font-family: 'Courier New', Courier, monospace; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      color: #fcebc4;
+    }
+
+    .button-group {
+      display: flex;
+      flex-direction: column;
+      gap: 15px; 
+      align-items: center;
+    }
+
+    .btn {
+      padding: 16px 32px;
+      font-size: 18px;
+      font-family: inherit;
+      cursor: pointer;
+      font-weight: bold;
+      transition: transform 0.1s ease;
+      width: 320px; 
+      border: 4px solid;
+    }
+
+    #surpriseBtn {
+      background-color: #f2b154; 
+      color: #1a1510;
+      border-color: #c98432; 
+    }
+
+    #secondBtn {
+      background-color: #c98432; 
+      color: #1a1510;
+      border-color: #2c1e11;
+    }
+
+    #statsBtn {
+      background-color: #c98432;  
+      color: #fcebc4;
+      border-color: #2c1e11;
+    }
+
+    #auroraBtn {
+      background-color: #2c1e11; 
+      color: #fcebc4;
+      border-color: #f2b154;
+    }
+
+    .btn:hover {
+      background-color: #cf5707;
+      color: #1a1510;
+      transform: scale(1.05);
+    }
+    
+    .btn:active {
+      transform: scale(0.95);
+    }
+
+    .back-btn {
+      margin-top: 30px;
+      padding: 8px 16px;
+      background-color: transparent;
+      color: #fcebc4;
+      border: 2px dashed #fcebc4;
+      cursor: pointer;
+      font-family: inherit;
+      font-weight: bold;
+    }
+
+    .back-btn:hover {
+      background-color: #fcebc4;
+      color: #1a1510;
+    }
+
+    .stats-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .stats-table tr {
+      border-bottom: 1px dashed #3d2e1e;
+    }
+
+    .stats-table td {
+      padding: 10px 8px;
+      text-align: left;
+      vertical-align: top;
+      font-size: 14px;
+    }
+
+    
+    .stats-table td:first-child {
+      font-weight: bold;
+      color: #c98432;
+      width: 40%;
+    }
+
+    .stats-table td:last-child {
+      text-align: right;
+      color: #fcebc4;
+      width: 60%;
+    }
+    
+    .highlight-stat {
+      color: #f2b154 !important;
+      font-weight: bold;
+    }
+
+    @keyframes popIn {
+      0% {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div style="text-align: center; max-width: 600px; padding: 20px;">
+    
+    <div id="mainMenu" class="button-group">
+      <h1 style="color: #f2b154; margin-bottom: 15px; font-size: 26px;">✨ ayo bday boy! select any option from below teehee ✨</h1>
+      <button id="surpriseBtn" class="btn">surprise fren</button>
+      <button id="secondBtn" class="btn">card!</button>
+      <button id="statsBtn" class="btn">your stats hehe</button>
+      <button id="auroraBtn" class="btn">my rendition of the aurora!</button>
+    </div>
+
+    <div id="doggoContainer" style="display: none; margin-top: 20px; text-align: center; animation: popIn 0.3s ease-out;">
+      <img src="FINAL DOGGO.gif" alt="Happy Birthday Doggo!">
+      <h3 style="color: #f2b154; margin-top: 15px; line-height: 1.6; font-size: 18px; text-align: justify;">
+        Happy Birthday dear Anoranya! I am a golden retriever doggo and my name is Anormitaa!! I love getting pets from my daddy Anoranya and mommy Anushmita!! They always feed me so much great food as they are both really good chefs! Pwease pwease live your life to the fullest and go for a lot of trips! and dont forget to take me with you too! I LOVE YOU DADDY ANO AND HAPPY 23RD BDAY TO THE BEST FATHER I COULD EVER ASK FOR!
+      </h3>
+      <button class="back-btn" onclick="goToMenu()">← BACK TO MENU</button>
+    </div>
+
+    <div id="cardContainer" style="display: none; margin-top: 20px; text-align: center; animation: popIn 0.3s ease-out; background-color: #2c1e11; padding: 25px; border: 4px dashed #f2b154;">
+      <h2 style="color: #fcebc4; margin-top: 0;">LEVEL 23 HERE I COME 🎂</h2>
+      <p style="line-height: 1.8; font-size: 15px; text-align: justify; margin-bottom: 20px;">
+        MY ANO IS 23! literally aging like fine wine you are. Happy birthday to the best man to ever walk on this earth! literally the saviour of the earth you are because of your kindness and lovee. I am so proud of the man you are becoming Anoranya. I couldn't be happier. You are stepping up. Getting things done. The improvement is insane my man. It really is. Please continue taking good care of yourself always okay? and dont forget to have fun. You are 23 and you deserve to be happy! 2026 is your year. Got your first job, got your first salary, cracking them interviews and taking care of your mental health- thats a awful lot to achieve in such a short span of time where no one believed in you(private fc+arnab from college+mommo+dadan badam+me always believed in you) and we will continue believeing in you. we love you. I enjoy and love your presence. You have blessed me in ways you won't ever know. Happy Birthday my king. Happy birthday my champion. You will become extremely successful and rich someday. May god give you the longest and happiest life imaginable. May you be free of all diseases and ailments. May all your sadness and hurt be dissolved into the morning dew which sits on my window. Enjoy Ano. I love you.-with all the love, (yours truly,) anu.
+      </p>
+      <button class="back-btn" onclick="goToMenu()">← BACK TO MENU</button>
+    </div>
+
+    <div id="statsContainer" style="display: none; background-color: #2c1e11; padding: 25px; border: 4px solid #c98432; border-radius: 8px; width: 450px; max-width: 90vw; margin: 20px auto 0 auto; animation: popIn 0.3s ease-out;">
+      <h2 style="color: #f2b154; margin-top: 0;">Anoranya Buna Dutta's stats:</h2>
+      <div style="font-size: 13px; border-bottom: 2px dashed #c98432; padding-bottom: 10px; margin-bottom: 15px;">LEVEL: 23 | CLASS: King of the Champions 👑</div>
+      
+      <table class="stats-table">
+        <tr><td>Kindness</td><td class="highlight-stat">maximum 1000</td></tr>
+        <tr><td>Coolness</td><td>uber cool fr fr</td></tr>
+        <tr><td>Gaming skills</td><td class="highlight-stat">immortal 3 806 APAC peak.</td></tr>
+        <tr><td>Football skills</td><td>very attacc and very very score goals</td></tr>
+        <tr><td>Beauty</td><td style="font-size: 13px;">the meter breaks when anyone tries to measure your beauty as you are IMMEASURABLY BEAUTIFUL</td></tr>
+        <tr><td>Health</td><td style="color: #ff8c00 !important;">can be better(PWEASE TAKE CARE PRETTY PLSSS)</td></tr>
+        <tr><td>Cooking skills</td><td>shef. nice cooking techniques and great presentation skills. 10/10.</td></tr>
+        <tr><td>Relationships</td><td>great listener. problem solver. warm hug giver. no hate only love.</td></tr>
+      </table>
+      
+      <button class="back-btn" onclick="goToMenu()">← BACK TO MENU</button>
+    </div>
+
+    <div id="auroraContainer" style="display: none; background-color: #0c1020; padding: 20px; border: 4px double #fcebc4; max-width: 420px; margin: 20px auto 0 auto; animation: popIn 0.3s ease-out;">
+      <h2 style="color: #fcebc4; margin-top: 0; font-style: italic;">"your dream immortalised."</h2>
+      <img src="aurora.png" alt="Northern Lights Painting" style="width: 100%; max-width: 380px; border: 2px solid #1a1510; margin: 10px 0;">
+      <p style="font-size: 14px; color: #fcebc4; font-style: italic; padding: 0 10px;">
+        some day you will be under this night sky with your fren doggo!
+      </p>
+      <button class="back-btn" onclick="goToMenu()">← BACK TO MENU</button>
+    </div>
+
+  </div>
+
+  <script>
+    const menu = document.getElementById('mainMenu');
+    const doggoView = document.getElementById('doggoContainer');
+    const cardView = document.getElementById('cardContainer');
+    const statsView = document.getElementById('statsContainer');
+    const auroraView = document.getElementById('auroraContainer');
+
+    document.getElementById('surpriseBtn').addEventListener('click', () => {
+      clearScreen();
+      doggoView.style.display = 'block';
+    });
+
+    document.getElementById('secondBtn').addEventListener('click', () => {
+      clearScreen();
+      cardView.style.display = 'block';
+    });
+
+    document.getElementById('statsBtn').addEventListener('click', () => {
+      clearScreen();
+      statsView.style.display = 'block';
+    });
+
+    document.getElementById('auroraBtn').addEventListener('click', () => {
+      clearScreen();
+      auroraView.style.display = 'block';
+    });
+
+    function clearScreen() {
+      menu.style.display = 'none';
+      doggoView.style.display = 'none';
+      cardView.style.display = 'none';
+      statsView.style.display = 'none';
+      auroraView.style.display = 'none';
+    }
+
+    function goToMenu() {
+      doggoView.style.display = 'none';
+      cardView.style.display = 'none';
+      statsView.style.display = 'none';
+      auroraView.style.display = 'none';
+      menu.style.display = 'flex'; 
+    }
+  </script>
+
+</body>
+</html>
